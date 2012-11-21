@@ -8,143 +8,66 @@
  <meta property="og:title" content="Bookpro-v" />
  <meta property="og:type" content="education virtual" />
  <meta property="og:url" content="http://Bookpro-v.es"/>
- <meta property="og:image" content="#.img" />
+ <meta property="og:image" content="img/logo.png" />
  <meta property="og:site_name" content="Bookpro-v.es" />
 <title>Bookpro-v</title>
-    <link rel="shortcut icon" href="http://mjplay-v.16mb.com/imagenes/principal/home2.png" />
+  <link rel="shortcut icon" href="img/logo.png"" />
 	<link rel="stylesheet" href="./jshowoff.css" type="text/css" media="screen, projection" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
-	<script type="text/javascript" src="./jquery.jshowoff.min.js"></script>
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body  id="style-1">
 <article class="tabs">
-	<a class="open" href="#"><img src="http://mjplay-v.16mb.com/imagenes/principal/home2.png"></a> 
+	<a class="open" href="#"><img src="img/logo.png" alt="MJplay-V"></a> 
 	<ul>
 		<li id="logop"><a href="#"><i data-icon="B">OOKPRO-V</i><span></span></a></li>
 		<li>
-			<a id="mj" href="#"><img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn1/561117_277654852340416_780149522_n.jpg"></a>
-			<a id="ap" href="#"><img src="http://www.aprobe.com.ar/sites/default/files/aprobelogo1.png"></a></li>
+			<a id="mj" href="#"><img src="img/LOGO.jpg" alt="MJplay-V"></a>
+			<a id="ap" href="#"><img src="img/aprobelogo1.png" alt="Aprobe"></a></li>
 		<li id="nsal">
 			<div id="ensal"><a href="#" id="eone">Entrar</a><a href="#" id="etwo">Crear</a></div>
 	    </li>
 	</ul>  
 </article>
+
+<article id="logo">
+	<div id="text">book<b>pro</b>-<span>V</span></div>
+        <img src="img/logog.png" alt="bookpro-v">
+</article> 
+
 <section id="videos">
-	<video width="100%">
+	<video width="100%" height="270" poster="img/video.JPG">
       <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"><!-- Safari / iOS, IE9 -->
       <source src="http://clips.vorwaerts-gmbh.de/VfE.webm"><!-- Chrome10+, Ffx4+, Opera10.6+ -->
       <source src="http://clips.vorwaerts-gmbh.de/VfE.ogv"><!-- Firefox3.6+ / Opera 10.5+ -->
   	</video>
   <div id="control">	
   <div title="video progress bar" class="ProgressBar"><span></span></div>
-  <a  href="#" class="Play">►</a>
-  <a title="Stop video" href="#" class="Pause">■</a>
+  <div id="controles">
+  <a title="Play video" href="#" class="Play">►</a>
+  <a title="Pause video" href="#" class="Pause">||</a>
+  </div>
    <div class="Volume" title="Volume bar"><div></div><span></span></div>
 </div>
  </section>
 <article id="social">
-<div class="container">  
         <span class="button fb">  
-            <a href="#"><img src="img/facebook-icon2.PNG" alt="">Like It</a>  
+            <a href="#"><img src="img/facebook-icon2.png" alt="facebook">Like It</a>  
         </span>  
-  
         <span class="button twit">  
-            <a href="#"><img src="img/twitter-icon2.PNG" alt="">Tweet It</a>  
+            <a href="#"><img src="img/twitter-icon2.png" alt="twitter">Tweet It</a>  
         </span>  
-  
         <span class="button mail">  
-            <a href="#"><img src="img/google-plus-icon2.PNG" alt="">Plus It</a>  
-        </span>  
-    </div>  
+            <a href="#"><img src="img/google-plus-icon2.png" alt="plus">Plus It</a>  
+        </span>   
 </article>
-<section id="demo">
-			<div id="features">
-				<div><img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-ash4/486765_280697758702792_1615852384_n.jpg" width="50%" height="98%"alt="Shore" /><div id="texto">Hola Mundo</div></div>
-				<div><img src="http://www.manualesdetodo.net/images/stories/2363/2363bio-linux.jpg"alt="Shore" class="eddie" width="100%" height="98%"/></div>	
-				<div><img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-snc7/377209_280700672035834_343663435_n.jpg" alt="Flower" width="50%" height="98%" />
-				<div id="texto">Hola Mundo</div></div>
-				<div><img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-prn1/37776_282270541878847_137944738_n.jpg" alt="Fern" width="100%" height="98%"/></div>
-			</div>
-			<script type="text/javascript">		
-				$(document).ready(function(){ $('#features').jshowoff(); });
-			</script>
+<section id="button-free">
+   <p>PRUEBA GRATIS</p> 
 </section>
-<nav>
+<!--nav>
 
-</nav>
+</nav-->
 </body>
 </html>
-<script type="text/javascript">
-// fix pre overflow in IE
-(function ($) {
-	$.fn.fixOverflow = function () {
-		if ($.browser.msie) {
-			return this.each(function () {
-				if (this.scrollWidth > this.offsetWidth) {
-					$(this).css({ 'padding-bottom' : '20px', 'overflow-y' : 'hidden' });
-				}
-			});
-		} else {
-			return this;
-		}
-	};
-})(jQuery);
-$('pre').fixOverflow();
-</script>
-<script>
-var mouseDown   = false, // Esto var se utiliza para detectar el momento en que podamos actualizar la barra de volumen
-    Video       = document.querySelector("video"),
-    Play        = document.querySelector(".Play"),
-    ProgressBar = document.querySelector(".ProgressBar span"),
-    Volume      = document.querySelector(".Volume"),
-    VolumeDrag  = document.querySelector(".Volume span"),
-    VolumeStat  = document.querySelector(".Volume div"),
-    Pause       = document.querySelector(".Pause");
-
-
-var play = function () {
-  Video.play();
-};
-
-var pause = function () {
-  Video.pause();
-};
-
-var updateProgressBar = function () {
-    var percentage = (Video.currentTime / Video.duration) * 100;
-    ProgressBar.style.width = percentage + "%";
-};
-var updateVolume = function ( volumeValue ) {
-  VolumeDrag.style.left   = volumeValue * 100 + "%";
-  VolumeStat.style.width  = volumeValue * 100 +  "%";
-
-  Video.volume = volumeValue;
-};
-
-var setVolume = function ( e ) {
-
-  e.preventDefault();
-
-  if(mouseDown) {
-    var mouseX = e.pageX,
-        realX  = e.pageX - Volume.offsetLeft,
-        volumePosition = realX + "px",
-        volume = ((100 / Volume.offsetWidth) * realX) / 100;
-
-        if (volume < 1 && volume > 0) {
-          updateVolume( volume );
-        }
-  }
-};
-
-updateVolume ( 0.5 );
-
-Play.addEventListener("click", play, false);
-Pause.addEventListener("click", pause, false);
-Video.addEventListener("timeupdate",updateProgressBar, false);
-Volume.addEventListener("mousedown", function () {mouseDown = true}, false);
-Volume.addEventListener("click", function (e) {mouseDown = true; setVolume(e);mouseDown = false;}, false);
-window.addEventListener("mouseup", function () {mouseDown = false}, false);
-window.addEventListener("mousemove", setVolume, false);
-</script>
+<script type="text/javascript" src="js/Script.js"></script>
