@@ -1,0 +1,106 @@
+<div class="s-button">
+    <a class="frame" href="#"></a>
+    <div class="body">PRUEBA GRATIS</div>
+</div>
+<div class="s-button" data-color="red">
+    <a class="frame" href="#"></a>
+    <div class="body">PRUEBA GRATIS</div>
+</div>
+
+<div class="s-button" data-color="blue">
+    <a class="frame" href="#"></a>
+    <div class="body">PRUEBA GRATIS</div>
+</div>
+<div class="s-button" data-color="green">
+    <a class="frame" href="#"></a>
+    <div class="body">PRUEBA GRATIS</div>
+</div>
+<style>
+body { background:url(http://mjplay-v.16mb.com/imagenes/fondos/wall4.png);}
+
+div.s-button {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+div.s-button a.frame {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0, 0.3);
+    box-shadow: 0 0px 8px rgba(0,0,0, 0.7) inset,
+         0 0px 2px rgba(255,255,255, 0.7);
+
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.32) 49%, rgba(255,255,255,0) 51%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(49%,rgba(255,255,255,0.32)), color-stop(51%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0)));
+
+    text-decoration: none;
+    display: block;    
+
+}
+div.s-button div {
+    background-color: #335;
+    
+    border: 3px solid rgb(255,240,40);
+    box-shadow: 0 1px 8px rgba(0,0,0, 0.7),
+        0 1px 2px rgba(0,0,0, 1.0) inset,
+        0 0px 18px rgba(0,0,0, 1.0) inset;
+    
+    -webkit-transition: background-color 100ms linear 0, box-shadow 100ms linear 0;
+    -moz-transition: background-color 100ms linear 0, box-shadow 100ms linear 0;
+}
+div.s-button a:hover+div {
+    background-color: #436;
+    box-shadow: 0 1px 8px rgba(255,240,30, 0.7),
+         0 1px 18px rgba(255,240,30, 0.7),
+        0 1px 2px rgba(0,0,0, 1.0) inset;
+}
+div.s-button a:active {
+    background-position: 0 2px;
+}
+div.s-button a:active+div {
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+div.s-button >* {
+    width: 8em;
+    height: 75px;
+
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 1.6em;
+    color: #fff;
+    text-shadow: 0 -1px 1px #000, 
+        0 0 4px #000,
+        0 0 14px #000;
+    font-size: 22px;
+    font-weight: bold;
+    
+    box-sizing: border-box;
+}
+
+
+/* red */
+div.s-button[data-color="red"] >div {
+    background-color: #622;
+}
+div.s-button[data-color="red"] a:hover+div {
+    background-color: #822;
+}
+
+/* green */
+div.s-button[data-color="green"] >div {
+    background-color: #262;
+}
+div.s-button[data-color="green"] a:hover+div {
+    background-color: #483;
+}
+
+/* blue */
+div.s-button[data-color="blue"] >div {
+    background-color: #226;
+}
+div.s-button[data-color="blue"] a:hover+div {
+    background-color: #349;
+}
