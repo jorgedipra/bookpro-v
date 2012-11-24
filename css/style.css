@@ -40,17 +40,17 @@ border: solid #000 0px;
 }
 nav{
 display:block;
-background:#333;
-width:450px;
+background:rgba(0,0,0,0.7);
+width:480px;
 height:230px;
-left:70px;
+left:12%;
 position:absolute;
 top:400px;
 padding:10px;
 /*border-radius*/
--webkit-border-radius:5px;
-   -moz-border-radius:5px;
-        border-radius:5px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+border-radius: 150px;
 /*box-shadow*/
 -webkit-box-shadow:inset 0 0 20px #000,0 0 2px #000,0 0 3px #000,0 0 4px #000,0 0 4px #FFF,0 0 1px 8px #ccc, 0 0 1px 9px #333;
    -moz-box-shadow:inset 0 0 20px #000,0 0 2px #000,0 0 3px #000,0 0 4px #000,0 0 4px #FFF,0 0 1px 8px #ccc, 0 0 1px 9px #333;
@@ -58,7 +58,7 @@ padding:10px;
 }
 nav article{
 margin-top:-10px;
-margin-left:-30px;
+margin-left:-3px;
 width:400px;
 height:210px;
 }
@@ -88,7 +88,7 @@ text-decoration:none;
 display:block;
 }
 nav div.s-button div{
-background-color:#335;
+background-color:#822;
 border:3px solid rgb(255,240,40);
 /*box-shadow*/
 -webkit-box-shadow:0 1px 8px rgba(0,0,0, 0.7),        0 1px 2px rgba(0,0,0, 1.0) inset,        0 0px 18px rgba(0,0,0, 1.0) inset;
@@ -139,21 +139,22 @@ width:170px;
 }
 /* red */
 nav div.s-button[data-color="red"] >div{
-background-color:#622;
-}
-nav div.s-button[data-color="red"] a:hover+div{
 background-color:#822;
 }
+nav div.s-button[data-color="red"] a:hover+div{
+background-color:#b07d03;
+}
+
 /* green */
 nav div.s-button[data-color="green"] >div{
-background-color:#262;
+background-color:#822;
 }
 nav div.s-button[data-color="green"] a:hover+div{
 background-color:#483;
 }
 /* blue */
 nav div.s-button[data-color="blue"] >div{
-background-color:#226;
+background-color:#822;
 }
 nav div.s-button[data-color="blue"] a:hover+div{
 background-color:#349;
@@ -844,6 +845,70 @@ content:attr(data-icon);
 font-family:'UnifrakturCook', cursive;
 font-size:1.2em;
 line-height:0.8em;
+}
+@media screen and (max-width: 1200px){
+nav{
+left:8%;
+}
+}
+@media screen and (max-width: 1040px){
+nav{
+left:4%;
+}
+}
+@media screen and (max-width: 1024px){
+nav{
+display:block;
+background:rgba(0,0,0,0.7);
+width:430px;
+height:200px;
+left:4%;
+}
+nav div.s-button >*{
+font-size:18px;
+width:150px;
+}
+#social{
+right:25px;
+font-size: 16px;
+width:380px;
+margin-top: 50px;
+padding: 0;
+}
+#social .mail a,
+#social .twit a,
+#social .fb a{
+width:100px;
+}
+#social .button{
+margin-right:1px;
+margin-left: 0;
+}
+#button-f{
+width:200px;
+height:50px;
+left:32%;
+top:130px;
+}
+#button-f .hukidashi2{
+width:150px;
+font-size:20px;
+}
+}
+@media screen and (max-width: 890px) {
+#logo img{
+left:50px;
+}
+nav {
+  width:400px;  
+}   
+nav div.s-button >*{
+font-size:18px;
+width:130px;
+}
+}
+@media screen and (max-width: 870px) {
+
 }
 @media screen and (max-width: 560px){
 .tabs > ul span{
