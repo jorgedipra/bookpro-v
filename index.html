@@ -11,13 +11,9 @@
  <meta property="og:image" content="img/logo.png" />
  <meta property="og:site_name" content="Bookpro-v.es" />
 <title>Bookpro-v</title>
-<link rel="shortcut icon" href="img/logo.png"" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Macondo' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/style.css">
-<!--[if lt IE 9]>
+ <link rel="shortcut icon" href="img/logo.png" />
+ <link rel="stylesheet" href="css/stylo.css">
+ <!--[if lt IE 9]>
  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
  <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
  <![endif]--> 
@@ -27,91 +23,84 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 	    $("#myController").jFlow({
-			controller: ".jFlowControl", // must be class, use . sign
-			slideWrapper : "#jFlowSlider", // must be id, use # sign
-			slides: "#mySlides",  // the div where all your sliding divs are nested in
-	    	selectedWrapper: "jFlowSelected",  // just pure text, no sign			
-			effect: "flow", //this is the slide effect (rewind or flow)
-			width: "100%",  // this is the width for the content-slider
-			height: "300px",  // this is the height for the content-slider
-			duration: 400,  // time in milliseconds to transition one slide			
-			pause: 5000, //time between transitions
-			prev: ".jFlowPrev", // must be class, use . sign
-			next: ".jFlowNext", // must be class, use . sign
+			controller: ".jFlowControl", 
+			slideWrapper : "#jFlowSlider", 
+			slides: "#mySlides",  
+	    	selectedWrapper: "jFlowSelected",  			
+			effect: "flow", 
+			width: "100%",  
+			height: "400px",  
+			duration: 300,  		
+			pause: 5000, 
+			prev: ".jFlowPrev", 
+			next: ".jFlowNext", 
 			auto: true
     });
 });
-
 </script>
-</head>
-<body  id="style-1">
-<article class="tabs">
-    <a class="open" href="#"><img src="img/logo.png" alt="MJplay-V"></a> 
-	<ul>
-	    <li id="logop"><a href="#"><i data-icon="B">OOKPRO-V</i><span></span></a></li>
-		<li>
-			<a id="mj" href="#"><img src="img/LOGO.jpg" alt="MJplay-V"></a>
-			<a id="ap" href="#"><img src="img/aprobelogo1.png" alt="Aprobe"></a></li>
-		<li id="nsal">
-			<div id="ensal"><a href="#" id="eone">Entrar</a><a href="#" id="etwo">Crear</a></div>
-	    </li>
-	</ul>  
-</article>
-<article id="logo">
-    <div id="text">book<b>pro</b>-<span>V</span></div>
-        <img src="img/logog.png" alt="bookpro-v">
-</article>
-<section id="videos">
-    <video  height="270" poster="img/video.JPG">
-        <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"><!-- Safari / iOS, IE9 -->
-        <source src="http://clips.vorwaerts-gmbh.de/VfE.webm"><!-- Chrome10+, Ffx4+, Opera10.6+ -->
-        <source src="http://clips.vorwaerts-gmbh.de/VfE.ogv"><!-- Firefox3.6+ / Opera 10.5+ -->
-  	</video>
-    <div id="control">	
-    <div title="video progress bar" class="ProgressBar"><span></span></div>
-    <div id="controles">
-        <a title="Play video" href="#" class="Play">►</a>
-        <a title="Pause video" href="#" class="Pause">||</a>
-    </div>
-    <div class="Volume" title="Volume bar"><div></div><span></span></div>
-    </div>
-</section>
-<article id="social">
-    <span class="button fb">  
-        <a href="#"><img src="img/facebook-icon2.png" alt="facebook">Like It</a>  
-    </span>  
-    <span class="button twit">  
-        <a href="#"><img src="img/twitter-icon2.png" alt="twitter">Tweet It</a>  
-    </span>  
-    <span class="button mail">  
-        <a href="#"><img src="img/google-plus-icon2.png" alt="plus">Plus It</a>  
-    </span>   
-</article>
-<section id="button-f">
-    <a href="#"><blockquote class="hukidashi2">HAS UNA PRUEBA GRATIS</blockquote></a>
-</section>
-<nav>
-    <article>
-	    <div class="s-button">
-            <a class="frame" href="#"></a>
-            <div class="body">&nbsp;&nbsp;&nbsp;&nbsp; QUIENES&nbsp;&nbsp;&nbsp;&nbsp; SOMOS</div>
-        </div>
-        <div class="s-button" data-color="red">
-            <a class="frame" href="#"></a>
-        <div class="body">&nbsp; NUESTROS CURSOS</div>
-        </div>
-        <div class="s-button" data-color="blue">
-            <a class="frame" href="#"></a>
-        <div class="body">&nbsp; NUESTRAS CUENTAS</div>
-        </div>
-        <div class="s-button" data-color="green">
-            <a class="frame" href="#"></a>
-        <div class="body">&nbsp;&nbsp; MAS&nbsp;&nbsp;&nbsp;&nbsp; CONTENIDO</div>
-        </div>
-    </article>
-</nav>
-<article id="rota">
-<div id="sliderContainer">
+    </head>
+    <body  id="style-1">
+       <article id="Mone">
+        <div id="Monebar"></div>
+            <section id="Monelogo">
+                <img src="img/logog.png" alt="bookpro-v">
+            </section>
+            <section id="Monetitulo">
+            <h1><span>B</span>ookpro-v</h1>
+            </section>
+            <section id="MoneEnRe">
+                <div id="Entra"><a href="#" title="Entrar">ENTRAR</a></div>
+                <div id="Nuevo"><a href="#" title="Nuevo">NUEVO</a></div>
+            </section>
+       </article>
+       <article id="Mtwo">
+           <section id="MtwoLetras">
+               <span>Aprende <b>YA!!!</b></span>
+           </section>
+           <section id="MtwoLogo">
+               <img src="img/logo.png" alt="Bookpro-V" title="Bookpro-v" >               
+           </section>
+           <section id="MtwoRedes">
+               <div class="button" id="face">                  
+                   <a href="#"><img src="img/facebook-icon2.png" alt="facebook"/><em>Like It</em></a>  
+                   <div id="fb" class="fb-like" data-href="http://localhost:49235/index1.html#" data-send="false" data-layout="button_count" data-width="100%" data-show-faces="false"></div>                
+                   <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=363367323738372";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+               </div>
+
+               <div class="button" id="twitter"> 
+                <a href="#"><img src="img/twitter-icon2.png" alt="twitter"><em>Tweet It</em></a>  
+                   <div id="tw"><a href="https://twitter.com/share" class="twitter-share-button" data-via="MJPlayV" data-lang="es">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div> 
+               </div>
+               <div class="button" id="plus">
+                <a href="#"><img src="img/google-plus-icon2.png" alt="plus"><em>Plus It</em></a>  
+                   <div id="pl">
+                       <!-- Place this tag where you want the +1 button to render. -->
+<div class="g-plusone" data-size="medium"></div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es-419'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+                   </div>
+               </div>
+           </section>
+       </article>
+        <article id="Mthree">
+            <div id="sliderContainer">
     <div id="mySlides">
       <div id="slide1" class="slide"> <img src="images/jflow-sample-slide1.jpg" alt="Slide 1 jFlow Plus" />
         <div class="slideContent">
@@ -147,13 +136,30 @@
     <div class="jFlowPrev"></div>
     <div class="jFlowNext"></div>
   </div>
-</article>
-<footer id="upm">
-<div id="textf">
-   <p>&copy; 2012 &#8211; BOOKPRO-V, un proyecto de <a target='_blank' href='https://twitter.com/#!/MJPlayV'>MJPlay-V</a> y de <a target='_blank' href='/#'>Aprobe</a>. El nombre y logo de BOOKPRO-V son marcas registradas.</p></div>
-    <div id="img"><a id="mj" href="#"><img src="img/LOGO.jpg" alt="MJplay-V"></a>
-	<a id="ap" href="#"><img src="img/aprobelogo1.png" alt="Aprobe"></a></li></div>    
-</footer>
-</body>
+       </article>
+ <article id="Mfour">
+     <section class="bbuton" id="">
+    <div id="background">
+    <div id="fonr"><span></span></div>
+    <div id="fonl"><span></span></div>
+    </div>
+     </section>
+     <section class="bbuton" id=""><div id="background">
+    <div id="fonr"><span></span></div>
+    <div id="fonl"><span></span></div>
+    </div></section>
+     <section class="bbuton" id=""><div id="background">
+    <div id="fonr"><span></span></div>
+    <div id="fonl"><span></span></div>
+    </div></section>
+     <section class="bbuton" id=""><div id="background">
+    <div id="fonr"><span></span></div>
+    <div id="fonl"><span></span></div>
+    </div></section>
+     <section class="bbuton" id=""><div id="background">
+    <div id="fonr"><span></span></div>
+    <div id="fonl"><span></span></div>
+    </div></section>
+ </article>
+    </body>
 </html>
-<script type="text/javascript" src="js/Script.js"></script>

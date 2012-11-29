@@ -1,7 +1,6 @@
 @import  url(http://fonts.googleapis.com/css?family=UnifrakturCook:700);
 @import url(http://fonts.googleapis.com/css?family=Condiment);
 @import url(http://fonts.googleapis.com/css?family=Germania+One);
-@import url(http://fonts.googleapis.com/css?family=Germania+One);
 @import url(http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow);
 @import url(http://fonts.googleapis.com/css?family=Macondo);
 ::selection{
@@ -798,7 +797,7 @@ padding:0px 0px;
 text-decoration:none;
 float:right;
 text-shadow:0px -1px 0px rgba(158,000,000,1),   0px 1px 0px rgba(255,166,166,0.2);
-width:85px;
+width:80px;
 }
 .tabs ul #paginas,
 .tabs ul #logop{
@@ -917,4 +916,6 @@ display:none;
 .tabs > ul a{
 text-align:center;
 }
+}
+@media screen and (min-width: 1280px) {
 }

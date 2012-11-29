@@ -1,0 +1,540 @@
+@import url(http://fonts.googleapis.com/css?family=Uncial+Antiqua);
+@import url(http://fonts.googleapis.com/css?family=Condiment);
+::selection{
+color:#fff;
+text-shadow:0 0 5px #fff,             
+            0 0 10px #fff,            
+            0 0 15px #fff,             
+            0 0 20px #4A2EFF,
+            0 0 30px #4A2EFF,       
+            0 0 40px #4A2EFF,             
+            0 0 50px #4A2EFF,             
+            0 0 75px #4A2EFF;
+letter-spacing:5px;
+}
+html{
+background-color:#F5F5F5;
+background:url(http://mjplay-v.16mb.com/imagenes/fondos/wall4.png);
+-webkit-font-smoothing:antialiased;
+   -moz-font-smoothing:antialiased;
+     -o-font-smoothing:antialiased;
+        font-smoothing:antialiased;
+height:100%;        
+margin:0 auto;
+overflow-y:scroll;
+padding:0;
+width:100%;
+}
+body{
+height:1000px;
+margin:0 auto;
+padding:0;
+width:90%;
+}
+img {
+border: solid #000 0px;
+margin: 0;
+padding: 0;
+}
+#Mone{
+background:#222;
+height:70px;
+margin:0px auto;
+padding:0;
+position:relative;
+width:100%;
+z-index:0;
+}
+#Mone:before{
+border-left:32px solid transparent;
+border-top:40px solid #222;
+content:"";
+left:-31px;
+margin: 0;
+position:absolute;
+top:30px;
+z-index:0;
+}
+#Mone:after{
+border-right:32px solid transparent;
+border-top:40px solid #222;
+bottom:0px;
+content:"";
+margin: 0;
+position:absolute;
+right:-31px;
+top:30px;
+z-index:0;
+}
+#Monebar{
+background:#222;
+height:30px;
+margin:0px auto;
+padding:0;
+position:absolute;
+width:100%;
+z-index:0;
+}
+#Monebar:before{
+border-left:32px solid #222;
+border-top:31px solid #222;
+content:"";
+left:-31px;
+margin: 0;
+position:absolute;
+top:0px;
+z-index:0;
+}
+#Monebar:after{
+border-right:32px solid #222;
+border-top:31px solid #222;
+bottom:0px;
+content:"";
+margin: 0;
+position:absolute;
+right:-31px;
+top:0px;
+z-index:0;
+}
+#MoneEnRe {
+float: right;    
+height: 90%;
+margin-top: -58px;
+position: relative; 
+right: 18px;   
+top: 0px;
+width: 210px;
+}
+#MoneEnRe #Entra{
+background:#0E4CD2;
+height:40px;
+margin:12px 0;
+position:relative;
+width:98px;
+z-index:0;
+}
+#MoneEnRe #Entra:before{
+ border-bottom: 20px solid transparent;
+ border-right: 20px solid #0E4CD2;
+ border-top: 20px solid transparent;
+content:"";
+left:-20px;
+margin: 0;
+position:absolute;
+top:0px;
+z-index:0;
+}
+#MoneEnRe #Entra a {
+color: #fff;    
+font-family: 'Uncial Antiqua', cursive;
+font-size: 22px;
+left: -8px;
+margin: 0;
+position: relative;
+top: 5px;
+text-decoration: none;
+}
+#MoneEnRe #Nuevo{
+background:#D20E18;
+height:40px;
+margin:-52px 110px;
+position:relative;
+width:98px;
+z-index:0;
+}
+#MoneEnRe #Nuevo:after{
+border-top: 20px solid transparent;
+border-left: 20px solid #D20E18;
+border-bottom: 20px solid transparent;
+content:"";
+right:-20px;
+margin: 0;
+position:absolute;
+top:0px;
+z-index:1;
+}
+#MoneEnRe #Nuevo a{
+color: #fff;    
+font-family: 'Uncial Antiqua', cursive;
+font-size: 22px;
+left: 8px;
+margin: 0;
+position: relative;
+top: 5px;
+text-decoration: none;
+}
+#Monelogo{
+background:#fff;
+/*border-radius*/
+-webkit-border-radius:30px;
+   -moz-border-radius:30px;
+        border-radius:30px;
+height:60px;
+left: 3px;
+margin: 0;
+position: relative;
+top: 4.5px;
+width:60px;
+z-index:100;
+}
+#Monelogo img{
+height: 45px;
+margin: 0;
+padding: 7px;
+width: 45px;
+}
+#Monetitulo{
+height: 65px;
+left: 70px;
+margin: 0;
+position: absolute;
+top: 2.2px;
+width: 300px;
+}
+#Monetitulo h1{
+color: #F5F5F5;
+font-family: 'Uncial Antiqua', cursive;
+font-size: 40px;
+margin-left: 10%;
+margin-top: -5px;
+padding: 0;
+}
+#Monetitulo h1 span{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+#Mtwo {    
+float: left;    
+height: 400px;
+margin: 3%;
+padding: 0;
+position: relative;
+width:30%;
+}
+#MtwoLetras {    
+height: 10%;
+margin: 0;
+padding:0;
+text-align: center;
+width: 100%;    
+}
+#MtwoLetras span {
+color: #000;    
+font-family: 'Uncial Antiqua', cursive;
+margin: 0;
+padding: 0;
+}
+#MtwoLetras span b {
+color:#ee6623; 
+text-shadow: 0 1px 0 #6b090e, 0 -1px 0 #6b090e, 1px 0 0 #6b090e, -1px 0 0 #6b090e;  
+}
+#MtwoLogo {
+height: 60%;
+margin: 0 auto;
+padding:0;
+text-align: center;
+width: 64%;    
+     
+}
+#MtwoLogo img{   
+margin-top: 20%;
+position: relative;    
+}
+#MtwoRedes{
+height: 30%;
+margin: 0;
+margin-top: -20px;
+padding:0;
+position: absolute;
+width: 100%;        
+}
+
+#MtwoRedes .button {
+height:50px;
+text-align: center;
+width:110px;
+}
+#MtwoRedes .button img{
+width:42px;
+}
+#MtwoRedes #plus a,
+#MtwoRedes #twitter a,
+#MtwoRedes #face a{  
+color:#fff;
+padding-top: 9.5px;
+padding-bottom: 11px;
+padding-right: 20px;
+position:relative;
+z-index:0;
+}
+#MtwoRedes #face a {
+ background:#4258D7;     
+}
+#MtwoRedes #plus a {
+ background:#D62A2A;     
+}
+#MtwoRedes #twitter a {
+   background: #42BAD7;
+   padding-right: 15px;
+}
+#MtwoRedes #plus a:before, 
+#MtwoRedes #twitter a:before,
+#MtwoRedes #face a:before{
+ border-top: 20px solid transparent;
+ border-bottom: 20px solid transparent;
+content:"";
+left:-19px;
+position:absolute;
+top:-1px;
+z-index:0;
+}
+#MtwoRedes #face a:before {
+     border-right: 20px solid #4258D7;
+}
+#MtwoRedes #plus a:before {
+     border-right: 20px solid #D62A2A;
+}
+#MtwoRedes #twitter a:before{
+  border-right: 20px solid #42BAD7;   
+}
+#MtwoRedes #plus a:after,
+#MtwoRedes #twitter a:after,
+#MtwoRedes #face a:after{
+border-top: 20px solid transparent;
+border-bottom: 20px solid transparent;
+content:"";
+position:absolute;
+right:-20px;
+top:-1px;
+z-index:0;
+}
+#MtwoRedes #face a:after {
+    border-left: 20px solid #4258D7;
+}
+#MtwoRedes #plus a:after {
+    border-left: 20px solid #D62A2A;
+}
+#MtwoRedes #twitter a:after{
+   border-left: 20px solid #42BAD7;
+}
+#MtwoRedes #pl:hover,
+#MtwoRedes #tw:hover,
+#MtwoRedes #fb:hover{
+opacity: 1;
+}
+#MtwoRedes #face{
+position: relative;
+float: left;
+} 
+#MtwoRedes #twitter{
+position: relative;
+float: right;
+}  
+#MtwoRedes #plus{
+position: relative;
+margin: 70px auto;
+}
+#MtwoRedes #fb {
+background: #4258D7;    
+left: -4px;    
+}
+#MtwoRedes #pl {
+background: #D62A2A;    
+left: 35px; 
+width: 70px;  
+}
+#MtwoRedes #tw{
+background: #42BAD7;    
+left: 7px;           
+}
+#MtwoRedes #pl, 
+#MtwoRedes #tw,
+#MtwoRedes #fb{     
+opacity: 0;
+padding: 0;     
+position: relative;
+top: -20px;
+}
+#Mthree{
+float: right;    
+height: 400px;
+margin: 3%;
+padding: 0;
+position: relative;
+width:57%; 
+}
+#Mfour { 
+height: 100px;
+margin: 0 auto;
+padding: 0;    
+position: absolute;
+text-align: center;
+top: 550px;    
+width: 90%;
+}
+#Mfour .bbuton{              
+display: inline-block;      
+height: 100%;  
+padding:0;
+margin: 10px; 
+position: relative;
+width:25%; 
+}
+#Mfour #background{
+width:60%;
+height:75px;
+background:#4258D7;
+position:relative;
+margin:10px auto;
+z-index:0;
+}
+
+#Mfour #background:before{
+ border-top: 35px solid transparent;
+ border-right: 40px solid #4258D7;
+ border-bottom: 40px solid transparent;
+content:"";
+left:-40px;
+position:absolute;
+top:0px;
+z-index:0;
+}
+
+#Mfour #background:after{
+border-top: 35px solid transparent;
+border-left: 40px solid #4258D7;
+border-bottom: 40px solid transparent;
+content:"";
+position:absolute;
+right:-40px;
+}
+#Mfour #fonl{
+background:#4258D7;
+height:40px;
+left:-40px;
+position: absolute;
+top:35px;
+width:100%;
+}
+#Mfour #fonl span{
+background:#fff;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+bottom: 0;
+height:5px;
+left:5px;
+margin:10px 5px;
+position: absolute;
+width:5px;
+}
+#Mfour #fonr{
+background:#4258D7;
+height:35px;
+right:-40px;
+position: absolute;
+width:100%;
+}
+#Mfour #fonr span{
+background:#fff;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+height:5px;
+right:5px;
+margin:4px;
+position: absolute;
+top: 5px;;
+width:5px;
+z-index:999;
+}
+
+#style-1::-webkit-scrollbar-track{
+background-color:#F5F5F5;
+/*box-shadow*/
+-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+   -moz-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+        box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+/*border-radius*/
+-webkit-border-radius:10px;
+   -moz-border-radius:10px;
+        border-radius:10px;
+}
+#style-1::-webkit-scrollbar{
+background-color:#F5F5F5;
+width:12px;
+}
+#style-1::-webkit-scrollbar-thumb{
+background-color:#555;
+/*border-radius*/
+-webkit-border-radius:10px;
+   -moz-border-radius:10px;
+        border-radius:10px;
+/*box-shadow*/
+-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+   -moz-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+        box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+}
+@media screen and (max-width: 1280px){
+#MtwoLetras span {
+font-size: 42px;
+}
+}
+@media screen and (max-width: 1200px){
+#MtwoLetras span {
+font-size: 35px;
+}
+}
+@media screen and (max-width: 1000px){
+#MtwoLetras span {
+font-size: 30px;
+}
+#MtwoRedes #face{
+margin-left: -15px;
+} 
+#MtwoRedes #twitter{
+margin-right: -15px;
+} 
+}
+@media screen and (max-width: 900px){
+#MtwoLetras span {
+font-size: 28px;
+}
+#MtwoRedes #face{
+margin-left: -35px;
+} 
+#MtwoRedes #twitter{
+margin-right: -35px;
+} 
+}
+@media screen and (max-width: 800px){
+body{
+width:800px;
+}
+#MtwoLetras span {
+font-size: 31px;
+}
+#MtwoRedes #face{
+margin-left: -15px;
+} 
+#MtwoRedes #twitter{
+margin-right: -15px;
+} 
+#Mfour {   
+width:800px;
+}
+}
+@media screen and (min-width: 1280px){
+/*1280*/
+body{
+width:1280px;
+}
+#Mone{
+margin-left:-20px;
+width:1320px;
+}
+#MtwoLetras span {
+font-size: 50px;
+}
+}
