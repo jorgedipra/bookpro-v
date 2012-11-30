@@ -26,7 +26,7 @@ padding:0;
 width:100%;
 }
 body{
-height:1000px;
+height:1050px;
 margin:0 auto;
 padding:0;
 width:90%;
@@ -134,6 +134,10 @@ position: relative;
 top: 5px;
 text-decoration: none;
 }
+#MoneEnRe #Entra:hover {
+color:#fff;
+text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #1078FF,  0 0 30px #1078FF,  0 0 40px #1078FF,   0 0 50px #1078FF,    0 0 75px #1078FF;
+}
 #MoneEnRe #Nuevo{
 background:#D20E18;
 height:40px;
@@ -163,6 +167,10 @@ position: relative;
 top: 5px;
 text-decoration: none;
 }
+#MoneEnRe #Nuevo:hover {
+color:#fff;
+text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #1078FF,  0 0 30px #1078FF,  0 0 40px #1078FF,   0 0 50px #1078FF,    0 0 75px #1078FF;
+}
 #Monelogo{
 background:#fff;
 /*border-radius*/
@@ -180,8 +188,8 @@ z-index:100;
 #Monelogo img{
 height: 45px;
 margin: 0;
-padding: 7px;
-width: 45px;
+padding: 9px;
+width: 40px;
 }
 #Monetitulo{
 height: 65px;
@@ -189,7 +197,7 @@ left: 70px;
 margin: 0;
 position: absolute;
 top: 2.2px;
-width: 300px;
+width: 310px;
 }
 #Monetitulo h1{
 color: #F5F5F5;
@@ -237,9 +245,101 @@ text-align: center;
 width: 64%;    
      
 }
-#MtwoLogo img{   
-margin-top: 20%;
-position: relative;    
+#MtwoLogo #logo{
+position:relative;
+top:80px;
+}
+#MtwoLogo #logo-a{
+cursor: pointer;         
+position:absolute;
+display:block;
+text-transform:uppercase;
+/*transform*/
+-webkit-transform:rotate(135deg);
+   -moz-transform:rotate(135deg);
+    -ms-transform:rotate(135deg);
+     -o-transform:rotate(135deg);
+        transform:rotate(135deg);
+margin-top:0px;
+margin-left:24px;
+text-align:center;
+font-size:95px;
+font-family: 'Rye', cursive;
+color:#fff;
+text-shadow:1px 1px #efefef, -1px -2px #2f2f2f;
+}
+#MtwoLogo #wrap{
+margin:0px auto;
+width:100px;
+height:100px;
+/*transform*/
+-webkit-transform:rotate(-135deg);
+   -moz-transform:rotate(-135deg);
+    -ms-transform:rotate(-135deg);
+     -o-transform:rotate(-135deg);
+        transform:rotate(-135deg);
+/* moved original rotate to here to stop animation messing up */
+:;
+}
+#MtwoLogo #A{
+position:absolute;
+display:block;
+background:transparent;
+width:110px;
+height:110px;
+/*border-radius*/
+-webkit-border-radius:20px 30000px 20000px;
+   -moz-border-radius:20px 30000px 20000px;
+        border-radius:20px 30000px 20000px;
+/*box-shadow*/
+-webkit-box-shadow:-20px -20px 30px rgba(0,0,0,.3);
+   -moz-box-shadow:-20px -20px 30px rgba(0,0,0,.3);
+        box-shadow:-20px -20px 30px rgba(0,0,0,.3);
+/*transition*/
+-webkit-transition:all 1s ease-in-out;
+   -moz-transition:all 1s ease-in-out;
+     -o-transition:all 1s ease-in-out;
+        transition:all 1s ease-in-out;
+}
+#MtwoLogo #A:before{
+content:'';
+position:absolute;
+display:block;
+width:101px;
+height:95px;
+margin:25px;
+background:#000 url(http://mjplay-v.16mb.com/imagenes/fondos/fondoJ.png);
+/*border-radius*/
+-webkit-border-radius:100px / 50px;
+   -moz-border-radius:100px / 50px;
+        border-radius:100px / 50px;
+border-top:solid 5px #666;
+/*transform*/
+-webkit-transform:rotate(135deg);
+   -moz-transform:rotate(135deg);
+    -ms-transform:rotate(135deg);
+     -o-transform:rotate(135deg);
+        transform:rotate(135deg);
+}
+#MtwoLogo #A:after{
+content:'';
+display:block;
+background:#000 url(http://mjplay-v.16mb.com/imagenes/fondos/fondoJ.png);
+margin-left:.5px;
+margin-top:.5px;
+width:109.5px;
+height:109.5px;
+/*border-radius*/
+-webkit-border-radius:20px 30000px 20000px;
+   -moz-border-radius:20px 30000px 20000px;
+        border-radius:20px 30000px 20000px;
+}
+#MtwoLogo #A:hover{
+margin:-20px;
+/*box-shadow*/
+-webkit-box-shadow:-4px -4px 20px rgba(0,0,0,.6);
+   -moz-box-shadow:-4px -4px 20px rgba(0,0,0,.6);
+        box-shadow:-4px -4px 20px rgba(0,0,0,.6);
 }
 #MtwoRedes{
 height: 30%;
@@ -384,7 +484,7 @@ width:25%;
 #Mfour #background{
 width:60%;
 height:75px;
-background:#4258D7;
+background:#666666;
 position:relative;
 margin:10px auto;
 z-index:0;
@@ -392,7 +492,7 @@ z-index:0;
 
 #Mfour #background:before{
  border-top: 35px solid transparent;
- border-right: 40px solid #4258D7;
+ border-right: 40px solid #666666;
  border-bottom: 40px solid transparent;
 content:"";
 left:-40px;
@@ -403,14 +503,14 @@ z-index:0;
 
 #Mfour #background:after{
 border-top: 35px solid transparent;
-border-left: 40px solid #4258D7;
+border-left: 40px solid #666666;
 border-bottom: 40px solid transparent;
 content:"";
 position:absolute;
 right:-40px;
 }
 #Mfour #fonl{
-background:#4258D7;
+background:#666666;
 height:40px;
 left:-40px;
 position: absolute;
@@ -430,7 +530,7 @@ position: absolute;
 width:5px;
 }
 #Mfour #fonr{
-background:#4258D7;
+background:#666666;
 height:35px;
 right:-40px;
 position: absolute;
@@ -448,6 +548,201 @@ position: absolute;
 top: 5px;;
 width:5px;
 z-index:999;
+}
+#Mfour a{
+color: #fff;
+text-decoration: none;
+}
+#Mfour a p{
+font-family: 'Uncial Antiqua', cursive;    
+font-size:23px;
+margin:5px;
+padding: 0px;
+position:absolute;
+z-index: 999;
+}
+
+#Mfour a:hover #fonl,  
+#Mfour a:hover #fonr,
+#Mfour a:hover #background{
+background:#222;
+}
+#Mfour a:hover #background:after {
+border-left: 40px solid #222;
+}
+#Mfour a:hover #background:before {
+ border-right: 40px solid #222;
+}
+
+#Mfour #bfour a:hover #fonl,  
+#Mfour #bfour a:hover #fonr,
+#Mfour #bfour a:hover #background{
+background:#483;
+}
+#Mfour #bfour a:hover #background:after {
+border-left: 40px solid #483;
+}
+#Mfour #bfour a:hover #background:before {
+ border-right: 40px solid #483;
+}
+
+#Mfour #bthree a:hover #fonl,  
+#Mfour #bthree a:hover #fonr,
+#Mfour #bthree a:hover #background{
+background:#349;
+}
+#Mfour #bthree a:hover #background:after {
+border-left: 40px solid #349;
+}
+#Mfour #bthree a:hover #background:before {
+ border-right: 40px solid #349;
+}
+
+#Mfour #btwo a:hover #fonl,  
+#Mfour #btwo a:hover #fonr,
+#Mfour #btwo a:hover #background{
+background:#E6C91F;
+}
+#Mfour #btwo a:hover #background:after {
+border-left: 40px solid #E6C91F;
+}
+#Mfour #btwo a:hover #background:before {
+ border-right: 40px solid #E6C91F;
+}
+
+#Mfour #bone a:hover #fonl,  
+#Mfour #bone a:hover #fonr,
+#Mfour #bone a:hover #background{
+background:#FF9E00;
+}
+#Mfour #bone a:hover #background:after {
+border-left: 40px solid #FF9E00;
+}
+#Mfour #bone a:hover #background:before {
+ border-right: 40px solid #FF9E00;
+}
+
+#Mfour #QS a:hover #fonl,  
+#Mfour #QS a:hover #fonr,
+#Mfour #QS a:hover #background{
+background:#822;
+}
+#Mfour #QS a:hover #background:after {
+border-left: 40px solid #822;
+}
+#Mfour #QS a:hover #background:before {
+ border-right: 40px solid #822;
+}
+
+#Mfour #bfour a p{
+font-size: 23px;
+margin-left: -15px;
+}
+
+#MUP {
+margin: 0;
+padding:0px;    
+position: relative;    
+top: 700px;
+}
+#MUP p {
+color: #F5F5F5;    
+font-family: 'Uncial Antiqua', cursive;    
+font-size:16px;    
+margin: 0;
+padding-top: 30px;
+padding-left:40px; 
+padding-right:200px;    
+position: absolute;
+top: 0;
+z-index: 99;
+}
+#MUP p a {
+    color: #fff;
+}
+#MUP p em {
+font-size: 40px;
+left:18px;
+position: absolute;
+top:15px;
+}
+#MUP #cuerpp{
+width:90%;
+height:57px;
+background:#222;
+position:relative;
+margin:100px auto;
+z-index:0;
+}
+#MUP #cuerpp:before{
+border-bottom:58px solid #222;
+border-left: 80px solid transparent;
+content:"";
+left:-80px;
+position:absolute;
+top:-1px;
+z-index:0;
+}
+#MUP #cuerpp:after{
+bottom:0px;
+border-bottom:58px solid #222;
+border-right: 80px solid transparent;
+content:"";
+position:absolute;
+right:-80px;
+}
+
+
+#MUP #ponebar{
+width:90%;
+height:57px;
+background:#222;
+position:relative;
+margin:0px auto;
+margin-top: -100px;
+z-index:0;
+}
+
+#MUP #ponebar:after{
+bottom:0px;
+border-right:80px solid transparent;
+border-top:58px solid #222;
+content:"";
+position:absolute;
+right:-80px;
+}
+#MUP #ponebar:before{
+border-left:80px solid transparent;
+border-top:58px solid #222;
+content:"";
+left:-80px;
+position:absolute;
+top:0px;
+z-index:0;
+}
+#MUP #img{
+ position: relative;         
+ float: right;
+ width: 200px;
+ height:50px;
+ top:0;
+ margin-top: -340px;
+ z-index: 999;
+}
+#MUP #img img {
+opacity: 0.5;
+}
+#MUP #img img:hover {
+opacity: 1;
+}
+#MUP #img #mj img {
+width: 30%;
+height: 100%;
+float: left;
+}
+#MUP #img #ap img {
+width: 60%;
+height: 100%;
 }
 
 #style-1::-webkit-scrollbar-track{
@@ -485,6 +780,7 @@ font-size: 42px;
 #MtwoLetras span {
 font-size: 35px;
 }
+
 }
 @media screen and (max-width: 1000px){
 #MtwoLetras span {
@@ -496,6 +792,9 @@ margin-left: -15px;
 #MtwoRedes #twitter{
 margin-right: -15px;
 } 
+#MUP #img{ 
+ margin-top: -320px;
+}
 }
 @media screen and (max-width: 900px){
 #MtwoLetras span {
@@ -507,6 +806,14 @@ margin-left: -35px;
 #MtwoRedes #twitter{
 margin-right: -35px;
 } 
+#Mfour a p{
+margin-left: -10px;    
+font-size:22px;
+}
+#Mfour #bfour a p{
+font-size: 21px;
+margin-left: -15px;
+}
 }
 @media screen and (max-width: 800px){
 body{
