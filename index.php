@@ -21,7 +21,10 @@
 <link href='http://fonts.googleapis.com/css?family=Rye' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script src="js/jflow.plus.min.js" type="text/javascript"></script>
+<link media="screen" rel="stylesheet"  href="css/colorbox.css" />
+<script  src="js/colorbox.js"></script>  
 <script type="text/javascript">
+/*galeria*/
 	$(document).ready(function(){
 	    $("#myController").jFlow({
 			controller: ".jFlowControl", 
@@ -38,6 +41,17 @@
 			auto: true
     });
 });
+/*entrar*/
+$("document").ready(function (){ 
+       // load the overlay
+        if (document.cookie.indexOf('visited=true') == -1) {
+			var fifteenDays = 1000*60*60*24*15;
+			var expires = new Date((new Date()).valueOf() + fifteenDays);
+			document.cookie = "visited=true;expires=" + expires.toUTCString();
+			$.colorbox({width:"580px", inline:true, href:"#subscribe_popup"});
+		}		
+		$(".open_popup").colorbox({width:"400px", inline:true, href:"#subscribe_popup"});
+ });
 </script>
     </head>
     <body  id="style-1">
@@ -50,11 +64,28 @@
             <h1><span>B</span>ookpro-v</h1>
             </section>
             <section id="MoneEnRe">
-                <div id="Entra"><a href="#" title="Entrar">ENTRAR</a></div>
+                <div id="Entra"><a href="#" class="open_popup" title="Entrar">ENTRAR</a></div>
                 <div id="Nuevo"><a href="#" title="Nuevo">NUEVO</a></div>
+                <div style='display:none'>
+                    <div id='subscribe_popup' style='padding:10px;'>
+                        <form action="#" method="post">
+                        <h2>Iniciar sesión</h2>
+                        <h3>Inicia con alguna de tus cuentas:</h3>
+                        <div class="inset"><p>
+                        <a href="#f" title="facebook" id="Mfb">
+                          <label>Facebook</label>
+                          <a href="#f"  id="circlef"></a></a></p>
+                        <p><a href="#t" title="Twitter" id="Mtw"><label>Twitter</label>
+                        <a href="#t" id="circlet"></a></a></p>
+                        <p><a href="#p" title="plus" id="Mpl"><label>Plus&nbsp;&nbsp;Mas</label>
+                         <a href="#p" id="circlep"></a></a></p>
+                        </div>
+                        </form>
+                    </div>
+                </div>
             </section>
        </article>
-       <article id="Mtwo">
+       <article id="Mtwo">  
            <section id="MtwoLetras">
                <span>Aprende <b>YA!!!</b></span>
            </section>
@@ -111,26 +142,26 @@
     <div id="mySlides">
       <div id="slide1" class="slide"> <img src="images/jflow-sample-slide1.jpg" alt="Slide 1 jFlow Plus" />
         <div class="slideContent">
-          <h3>titulo</h3>
-          <p>contenido</p>
+          <h3><a href="#">ir a </a>titulo</h3>
+           <p><a href="#">ir a </a>contenido</p>
         </div>
       </div>
       <div id="slide2" class="slide"> <img src="images/jflow-sample-slide2.jpg" alt="Slide 2 jFlow Plus" />
         <div class="slideContent">
-          <h3>titulo</h3>
-          <p>contenido</p>
+          <h3><a href="#">ir a </a>titulo</h3>
+           <p><a href="#">ir a </a>contenido</p>
         </div>
       </div>
       <div id="slide3" class="slide"> <img src="images/jflow-sample-slide3.jpg" alt="Slide 3 jFlow Plus" />
         <div class="slideContent">
-          <h3>titulo</h3>
-          <p>contenido</p>
+          <h3><a href="#">ir a </a>titulo</h3>
+          <p><a href="#">ir a </a>contenido</p>
         </div>
       </div>
       <div id="slide4" class="slide"> <img src="images/jflow-sample-slide4.jpg" alt="Slide 3 jFlow Plus" />
         <div class="slideContent">
-          <h3>titulo</h3>
-          <p>contenido</p>
+          <h3><a href="#">ir a </a>titulo</h3>
+           <p><a href="#">ir a </a>contenido</p>
         </div>
       </div>
     </div>
@@ -187,8 +218,8 @@
 <div id="cuerpp"></div>
     <p><em>&copy;</em>2012 &#8211; BOOKPRO-V, un proyecto de <a target='_blank' href='https://twitter.com/#!/MJPlayV'>MJPlay-V</a> y de <a target='_blank' href='http://twitter.com/aprobecomar'>Aprobe</a>. El nombre y logo de BOOKPRO-V son marcas registradas.</p>
 <div id="ponebar"></div>
-    <div id="img"><a id="mj" href="http://mjplay-v.16mb.com/"><img src="img/LOGO.jpg" alt="MJplay-V"></a>
-	<a id="ap" href="http://www.aprobe.com.ar/"><img src="img/aprobelogo1.png" alt="Aprobe"></a></li></div> 
+    <div id="img"><a id="mj" href="http://mjplay-v.16mb.com/" target='_blank'><img src="img/LOGO.jpg" alt="MJplay-V"></a>
+	<a id="ap" href="http://www.aprobe.com.ar/" target='_blank'><img src="img/aprobelogo1.png" alt="Aprobe"></a></li></div> 
 </article>
     </body>
 </html>
