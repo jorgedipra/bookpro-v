@@ -1,14 +1,14 @@
 #colorbox, #cboxOverlay, #cboxWrapper{
+left:0;
+overflow:visible;
 position:absolute;
 top:0;
-left:0;
 z-index:9999;
-overflow:visible;
 }
 #cboxOverlay{
+height:100%;
 position:fixed;
 width:100%;
-height:100%;
 }
 #cboxMiddleLeft, #cboxBottomLeft{
 clear:left;
@@ -23,25 +23,25 @@ overflow:auto;
 margin:0;
 }
 #cboxLoadingOverlay, #cboxLoadingGraphic{
+left:0;
 position:absolute;
 top:0;
-left:0;
 width:100%;
 }
 #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{
 cursor:pointer;
 }
 .cboxPhoto{
+border:0;
+display:block;
 float:left;
 margin:auto;
-border:0;
-display:block;
 }
 .cboxIframe{
-width:100%;
-height:100%;
-display:block;
 border:0;
+display:block;
+height:100%;
+width:100%;
 }
 #cboxOverlay{
 background:#000;
@@ -55,26 +55,26 @@ background-color:#333;
         border-radius:5px;
 }
 #cboxTopLeft{
-width:14px;
 height:14px;
+width:14px;
 }
 #cboxTopCenter{
 height:14px;
 }
 #cboxTopRight{
-width:14px;
 height:14px;
+width:14px;
 }
 #cboxBottomLeft{
-width:14px;
 height:43px;
+width:14px;
 }
 #cboxBottomCenter{
 height:43px;
 }
 #cboxBottomRight{
-width:14px;
 height:43px;
+width:14px;
 }
 #cboxMiddleLeft{
 width:14px;
@@ -95,46 +95,46 @@ background:url(../images/loading_background.png) no-repeat center center;
 background:url(../images/loading.gif) no-repeat center center;
 }
 #cboxTitle{
-position:absolute;
 bottom:-25px;
+color:#7C7C7C;
+font-weight:bold;
 left:0;
+position:absolute;
 text-align:center;
 width:100%;
-font-weight:bold;
-color:#7C7C7C;
 }
 #cboxCurrent{
-position:absolute;
 bottom:-25px;
-left:58px;
-font-weight:bold;
 color:#7C7C7C;
+font-weight:bold;
+left:58px;
+position:absolute;
 }
 #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{
-position:absolute;
-bottom:-29px;
 background:url(../images/controls.png) no-repeat 0px 0px;
-width:23px;
+bottom:-29px;
 height:23px;
+position:absolute;
 text-indent:-9999px;
+width:23px;
 }
 #cboxPrevious{
-left:0px;
 background-position:-51px -25px;
+left:0px;
 }
 #cboxPrevious.hover{
 background-position:-51px 0px;
 }
 #cboxNext{
-left:27px;
 background-position:-75px -25px;
+left:27px;
 }
 #cboxNext.hover{
 background-position:-75px 0px;
 }
 #cboxClose{
-right:0;
 background-position:-100px -25px;
+right:0;
 }
 #cboxClose.hover{
 background-position:-100px 0px;

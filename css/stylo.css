@@ -33,88 +33,92 @@ width:90%;
 }
 form{
 background:#111;
-width:300px;
-height:400px;
-margin:0px auto;
 /*border-radius*/
 -webkit-border-radius:5px;
    -moz-border-radius:5px;
         border-radius:5px;
-border:1px solid #191919;
-overflow:hidden;
-position:relative;
-font-family:'Uncial Antiqua', cursive;
 /*box-shadow*/
 -webkit-box-shadow:0 5px 10px 5px rgba(255,255,255,0.5);
    -moz-box-shadow:0 5px 10px 5px rgba(255,255,255,0.5);
-        box-shadow:0 5px 10px 5px rgba(255,255,255,0.5);
+        box-shadow:0 5px 10px 5px rgba(255,255,255,0.5);          
+border:1px solid #191919;
+font-family:'Uncial Antiqua', cursive;
+height:400px;
+margin:0px auto;
+overflow:hidden;
+position:relative;
+width:300px;     
+}
+form a{
+	vertical-align:top
 }
 form:after{
-content:"";
-display:block;
-position:absolute;
-height:1px;
-width:100px;
-left:20%;
 /*linear-gradient*/
 background:-webkit-gradient(linear,left top,right top,from(#111),color-stop(#444,0.25),color-stop(#b6b6b8,0.5),color-stop(#444,0.75),to(#111));
 background:-webkit-linear-gradient(left, #111, #444, #b6b6b8, #444, #111);
 background:   -moz-linear-gradient(left, #111, #444, #b6b6b8, #444, #111);
 background:     -o-linear-gradient(left, #111, #444, #b6b6b8, #444, #111);
-background:        linear-gradient(left, #111, #444, #b6b6b8, #444, #111);
-top:0;
-}
-form:before{
+background:        linear-gradient(left, #111, #444, #b6b6b8, #444, #111);  
 content:"";
 display:block;
+height:1px;
+left:20%;
 position:absolute;
-width:8px;
-height:5px;
+top:0;
+width:100px;
+}
+form:before{
 /*border-radius*/
 -webkit-border-radius:50%;
    -moz-border-radius:50%;
-        border-radius:50%;
-left:34%;
-top:-7px;
+        border-radius:50%;  
 /*box-shadow*/
 -webkit-box-shadow:0 0 6px 4px #fff;
    -moz-box-shadow:0 0 6px 4px #fff;
-        box-shadow:0 0 6px 4px #fff;
-}
-form h2{
-color:rgba(255,255,255,0.3);
-font-size:18px;
-text-shadow:0 1px 0 black;
-text-align:center;
-padding:15px 0;
-border-bottom:1px solid rgba(0,0,0,1);
-position:relative;
-}
-form h2:after{
+        box-shadow:0 0 6px 4px #fff;        
 content:"";
 display:block;
-width:250px;
-height:100px;
+height:5px;
+left:34%;
 position:absolute;
-top:0;
+top:-7px;
+width:8px;
+}
+form h2{
+border-bottom:1px solid rgba(0,0,0,1);
+color:rgba(255,255,255,0.3);
+font-size:18px;
+padding:15px 0;
+position:relative;
+text-align:center;
+text-shadow:0 1px 0 black;
+}
+form h2:after{
+/*linear-gradient*/
+background:-webkit-gradient(linear,4.72% 103.96%,95.28% -3.96%,from(rgba(255,255,255,0.15)),to(rgba(0,0,0,0)));
+background:-webkit-linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
+background:   -moz-linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
+background:     -o-linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
+background:        linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));  
+content:"";
+display:block;
+height:100px;
 left:50px;
 pointer-events:none;
+position:absolute;
 /*transform*/
 -webkit-transform:rotate(70deg);
    -moz-transform:rotate(70deg);
     -ms-transform:rotate(70deg);
      -o-transform:rotate(70deg);
         transform:rotate(70deg);
-/*linear-gradient*/
-background:-webkit-gradient(linear,4.72% 103.96%,95.28% -3.96%,from(rgba(255,255,255,0.15)),to(rgba(0,0,0,0)));
-background:-webkit-linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
-background:   -moz-linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
-background:     -o-linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
-background:        linear-gradient(50deg, rgba(255,255,255,0.15), rgba(0,0,0,0));
+top:0;
+width:250px;
 }
 form h3{
 color:#fff;
 font-size:18px;
+padding-left: 20px;
 }
 img{
 border:solid #000 0px;
@@ -123,31 +127,33 @@ padding:0;
 }
 #circlep ,
 #circlet,
-#circlef{    
-position:absolute;
-cursor:pointer;
-width:50px;
-height:50px;
+#circlef{   
 /*border-radius*/
 -webkit-border-radius:50px;
    -moz-border-radius:50px;
-        border-radius:50px;
+        border-radius:50px;   
+cursor:pointer;
+height:50px;
 margin-left:20px;
 padding: 0;
+position:absolute;
 top:190px;    
+width:50px;      
 z-index:999;
 }
 #circlef{
 background:url(/images/fb_1.png) center center no-repeat, #F5F5F5 top left repeat;
-margin-top:-5px;
+margin-top:-30px;
+position: absolute;
+top:190px;
 }
 #circlet{
 background:url(/images/twitter_1.png) center center no-repeat, #F5F5F5 top left repeat;
-margin-top:65px;
+margin-top:40px;
 }
 #circlep{
 background:url(/images/google_plus.png) center center no-repeat, #F5F5F5 top left repeat;
-margin-top:135px;
+margin-top:110px;
 }
 #Mone{
 background:#222;
@@ -216,6 +222,7 @@ margin-top:-58px;
 position:relative;
 right:18px;
 top:0px;
+vertical-align:top;
 width:210px;
 }
 #MoneEnRe #Entra{
@@ -244,12 +251,19 @@ font-size:22px;
 left:-8px;
 margin:0;
 position:relative;
-top:5px;
 text-decoration:none;
+top:5px;
 }
 #MoneEnRe #Entra:hover{
 color:#fff;
-text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #1078FF,  0 0 30px #1078FF,  0 0 40px #1078FF,   0 0 50px #1078FF,    0 0 75px #1078FF;
+text-shadow:0 0 5px #fff,
+     0 0 10px #fff, 
+     0 0 15px #fff,
+     0 0 20px #1078FF,
+     0 0 30px #1078FF,  
+     0 0 40px #1078FF,  
+     0 0 50px #1078FF,   
+     0 0 75px #1078FF;
 }
 #MoneEnRe #Nuevo{
 background:#D20E18;
@@ -260,13 +274,13 @@ width:98px;
 z-index:0;
 }
 #MoneEnRe #Nuevo:after{
-border-top:20px solid transparent;
-border-left:20px solid #D20E18;
 border-bottom:20px solid transparent;
+border-left:20px solid #D20E18;
+border-top:20px solid transparent;
 content:"";
-right:-20px;
 margin:0;
 position:absolute;
+right:-20px;
 top:0px;
 z-index:1;
 }
@@ -277,49 +291,64 @@ font-size:22px;
 left:8px;
 margin:0;
 position:relative;
-top:5px;
 text-decoration:none;
+top:5px;
 }
 #MoneEnRe #Nuevo:hover{
 color:#fff;
-text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #1078FF,  0 0 30px #1078FF,  0 0 40px #1078FF,   0 0 50px #1078FF,    0 0 75px #1078FF;
+text-shadow:0 0 5px #fff,
+            0 0 10px #fff, 
+            0 0 15px #fff,
+            0 0 20px #1078FF,
+            0 0 30px #1078FF,
+            0 0 40px #1078FF, 
+            0 0 50px #1078FF,  
+            0 0 75px #1078FF;
 }
 #Mpl,
 #Mtw,
 #Mfb{
-position:relative;
 color:white;
 cursor:pointer;
 font-family:'Uncial Antiqua', cursive;
 font-size:13px;
+left:20px;
+margin: 0;
+padding: 0;
+position:absolute;
 text-decoration:none;
-left:0px;
+top: 0;
 }
 #Mpl:before,
 #Mtw:before,
 #Mfb:before{
-content:"";
-width:200px;
-height:0;
-position:absolute;
-border-top:none;
 border-left:solid 30px transparent;
 border-right:solid 30px transparent;
+border-top:none;
+content:"";
+height:0;
+margin: 0;
+padding: 0;
+position:absolute;
+top: 0;
+width:200px;
 }
 #Mpl:after,
 #Mtw:after,
 #Mfb:after{
-content:"";
-width:200px;
-height:0;
-position:absolute;
-top:30px;
-border-top:solid 30px #0184ff;
 border-left:solid 30px transparent;
 border-right:solid 30px transparent;
+border-top:solid 30px #0184ff;
+content:"";
+height:0;
+margin: 0;
+padding: 0;
+position:absolute;
+top:30px;
+width:200px;
 }
 #Mfb{
-top:-10px;
+margin-top:155px;
 }
 #Mfb:before{
 border-bottom:solid 30px #0184ff;
@@ -328,7 +357,7 @@ border-bottom:solid 30px #0184ff;
 border-top:solid 30px #0184ff;
 }
 #Mtw{
-top:60px;
+top:225px;
 }
 #Mtw:before{
 border-bottom:solid 30px #42BAD7;
@@ -337,7 +366,7 @@ border-bottom:solid 30px #42BAD7;
 border-top:solid 30px #42BAD7;
 }
 #Mpl{
-top:130px;
+top:295px;
 }
 #Mpl:before{
 border-bottom:solid 30px #D62A2A;
@@ -348,13 +377,14 @@ border-top:solid 30px #D62A2A;
 #Mpl label,
 #Mtw label,
 #Mfb label{
-position:absolute;
-cursor:pointer;
 color:#fff;
+cursor:pointer;
 display:block;
 font-size:26px;
+margin: 0;
 padding:9px;
 padding-left:80px;
+position:absolute;
 z-index:999;
 }
 #Monelogo{
@@ -435,28 +465,28 @@ position:relative;
 top:80px;
 }
 #MtwoLogo #logo-a{
+color:#fff;
 cursor:pointer;
-position:absolute;
 display:block;
-text-transform:uppercase;
+font-family:'Rye', cursive;
+font-size:95px;
+margin-left:24px;
+margin-top:0px;
+position:absolute;
 /*transform*/
 -webkit-transform:rotate(135deg);
    -moz-transform:rotate(135deg);
     -ms-transform:rotate(135deg);
      -o-transform:rotate(135deg);
         transform:rotate(135deg);
-margin-top:0px;
-margin-left:24px;
 text-align:center;
-font-size:95px;
-font-family:'Rye', cursive;
-color:#fff;
 text-shadow:1px 1px #efefef, -1px -2px #2f2f2f;
+text-transform:uppercase;
 }
 #MtwoLogo #wrap{
+height:100px;
 margin:0px auto;
 width:100px;
-height:100px;
 /*transform*/
 -webkit-transform:rotate(-135deg);
    -moz-transform:rotate(-135deg);
@@ -467,11 +497,11 @@ height:100px;
 :;
 }
 #MtwoLogo #A{
-position:absolute;
-display:block;
 background:transparent;
-width:110px;
+display:block;
 height:110px;
+position:absolute;
+width:110px;
 /*border-radius*/
 -webkit-border-radius:20px 30000px 20000px;
    -moz-border-radius:20px 30000px 20000px;
@@ -487,13 +517,13 @@ height:110px;
         transition:all 1s ease-in-out;
 }
 #MtwoLogo #A:before{
+background:#000 url(http://mjplay-v.16mb.com/imagenes/fondos/fondoJ.png);
 content:'';
-position:absolute;
 display:block;
-width:101px;
 height:95px;
 margin:25px;
-background:#000 url(http://mjplay-v.16mb.com/imagenes/fondos/fondoJ.png);
+position:absolute;
+width:101px;
 /*border-radius*/
 -webkit-border-radius:100px / 50px;
    -moz-border-radius:100px / 50px;
@@ -507,13 +537,13 @@ border-top:solid 5px #666;
         transform:rotate(135deg);
 }
 #MtwoLogo #A:after{
+background:#000 url(http://mjplay-v.16mb.com/imagenes/fondos/fondoJ.png);
 content:'';
 display:block;
-background:#000 url(http://mjplay-v.16mb.com/imagenes/fondos/fondoJ.png);
+height:109.5px;
 margin-left:.5px;
 margin-top:.5px;
 width:109.5px;
-height:109.5px;
 /*border-radius*/
 -webkit-border-radius:20px 30000px 20000px;
    -moz-border-radius:20px 30000px 20000px;
@@ -528,8 +558,8 @@ margin:-20px;
 }
 #MtwoRedes{
 height:30%;
-margin:0;
 margin-top:-20px;
+margin:0;
 padding:0;
 position:absolute;
 width:100%;
@@ -546,9 +576,9 @@ width:42px;
 #MtwoRedes #twitter a,
 #MtwoRedes #face a{
 color:#fff;
-padding-top:9.5px;
 padding-bottom:11px;
 padding-right:20px;
+padding-top:9.5px;
 position:relative;
 z-index:0;
 }
@@ -565,8 +595,8 @@ padding-right:15px;
 #MtwoRedes #plus a:before, 
 #MtwoRedes #twitter a:before,
 #MtwoRedes #face a:before{
-border-top:20px solid transparent;
 border-bottom:20px solid transparent;
+border-top:20px solid transparent;
 content:"";
 left:-19px;
 position:absolute;
@@ -585,8 +615,8 @@ border-right:20px solid #42BAD7;
 #MtwoRedes #plus a:after,
 #MtwoRedes #twitter a:after,
 #MtwoRedes #face a:after{
-border-top:20px solid transparent;
 border-bottom:20px solid transparent;
+border-top:20px solid transparent;
 content:"";
 position:absolute;
 right:-20px;
@@ -608,16 +638,16 @@ border-left:20px solid #42BAD7;
 opacity:1;
 }
 #MtwoRedes #face{
-position:relative;
 float:left;
+position:relative;
 }
 #MtwoRedes #twitter{
-position:relative;
 float:right;
+position:relative;
 }
 #MtwoRedes #plus{
-position:relative;
 margin:70px auto;
+position:relative;
 }
 #MtwoRedes #fb{
 background:#4258D7;
@@ -660,23 +690,23 @@ width:90%;
 #Mfour .bbuton{
 display:inline-block;
 height:100%;
-padding:0;
 margin:10px;
+padding:0;
 position:relative;
 width:25%;
 }
 #Mfour #background{
-width:60%;
-height:75px;
 background:#666666;
-position:relative;
+height:75px;
 margin:10px auto;
+position:relative;
+width:60%;
 z-index:0;
 }
 #Mfour #background:before{
-border-top:35px solid transparent;
-border-right:40px solid #666666;
 border-bottom:40px solid transparent;
+border-right:40px solid #666666;
+border-top:35px solid transparent;
 content:"";
 left:-40px;
 position:absolute;
@@ -684,9 +714,9 @@ top:0px;
 z-index:0;
 }
 #Mfour #background:after{
-border-top:35px solid transparent;
-border-left:40px solid #666666;
 border-bottom:40px solid transparent;
+border-left:40px solid #666666;
+border-top:35px solid transparent;
 content:"";
 position:absolute;
 right:-40px;
@@ -715,8 +745,8 @@ width:5px;
 #Mfour #fonr{
 background:#666666;
 height:35px;
-right:-40px;
 position:absolute;
+right:-40px;
 width:100%;
 }
 #Mfour #fonr span{
@@ -726,9 +756,9 @@ background:#fff;
    -moz-border-radius:10px;
         border-radius:10px;
 height:5px;
-right:5px;
 margin:4px;
 position:absolute;
+right:5px;
 top:5px;
 width:5px;
 z-index:999;
@@ -826,9 +856,9 @@ color:#F5F5F5;
 font-family:'Uncial Antiqua', cursive;
 font-size:16px;
 margin:0;
-padding-top:30px;
 padding-left:40px;
 padding-right:200px;
+padding-top:30px;
 position:absolute;
 top:0;
 z-index:99;
@@ -843,11 +873,11 @@ position:absolute;
 top:15px;
 }
 #MUP #cuerpp{
-width:90%;
-height:57px;
 background:#222;
-position:relative;
+height:57px;
 margin:100px auto;
+position:relative;
+width:90%;
 z-index:0;
 }
 #MUP #cuerpp:before{
@@ -860,20 +890,20 @@ top:-1px;
 z-index:0;
 }
 #MUP #cuerpp:after{
-bottom:0px;
 border-bottom:58px solid #222;
 border-right:80px solid transparent;
+bottom:0px;
 content:"";
 position:absolute;
 right:-80px;
 }
 #MUP #ponebar{
-width:90%;
-height:57px;
 background:#222;
-position:relative;
+height:57px;
 margin:0px auto;
 margin-top:-100px;
+position:relative;
+width:90%;
 z-index:0;
 }
 #MUP #ponebar:after{
@@ -894,12 +924,12 @@ top:0px;
 z-index:0;
 }
 #MUP #img{
-position:relative;
 float:right;
-width:200px;
 height:50px;
-top:0;
 margin-top:-340px;
+position:relative;
+top:0;
+width:200px;
 z-index:999;
 }
 #MUP #img img{
@@ -946,14 +976,15 @@ background-color:#555;
 .inset{
 padding:20px;
 border-top:1px solid #19191a;
+vertical-align:top;
 }
 .p-container{
 padding:0 20px 20px 20px;
 }
 .p-container:after{
 clear:both;
-display:table;
 content:"";
+display:table;
 }
 .p-container span{
 display:block;

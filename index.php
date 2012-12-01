@@ -12,6 +12,7 @@
  <meta property="og:site_name" content="Bookpro-v.es" />
 <title>Bookpro-v</title>
  <link rel="shortcut icon" href="img/favicon.ico" />
+<link href="css/reset.css" type="text/css" rel="stylesheet"/>
  <link rel="stylesheet" href="css/stylo.css">
  <!--[if lt IE 9]>
  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -48,7 +49,7 @@ $("document").ready(function (){
 			var fifteenDays = 1000*60*60*24*15;
 			var expires = new Date((new Date()).valueOf() + fifteenDays);
 			document.cookie = "visited=true;expires=" + expires.toUTCString();
-			$.colorbox({width:"580px", inline:true, href:"#subscribe_popup"});
+			$.colorbox({width:"400px", inline:true, href:"#subscribe_popup"});
 		}		
 		$(".open_popup").colorbox({width:"400px", inline:true, href:"#subscribe_popup"});
  });
