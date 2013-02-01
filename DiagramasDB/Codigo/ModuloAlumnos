@@ -1,0 +1,37 @@
+ 
+create table if not EXISTS Alumno
+(
+   AlumnoId int not null primary key auto_increment,
+   AlumnoCodigo int not null,
+   AlumnoNombre varchar(30) not null,
+   AlumnoApellido varchar(30) not null,
+   AlumnoCorreo varchar(30) not null,
+   AlumnoContrasena varchar(8) not null,
+   CiudadId int,
+   TipoCuentaId int,
+   unique(AlumnoCodigo)
+);
+create table if not exists Ciudad
+(
+CiudadId int not null primary key auto_increment,
+CiudadIndicativo int not null ,
+CiudadNombre varchar(30) not null,
+unique(CiudadIndicativo),
+PaisId int not null 
+);
+
+create table if not exists Pais
+(
+PaisId int not null primary key auto_increment,
+PaisIndicativo int not null,
+PaisNombre varchar(30),
+unique(PaisIndicativo)
+);
+
+create table if not exists TipoCuenta
+(
+ TipoCuentaId int not null primary key auto_increment,
+ TipoCuentaTiempo time not null,
+ TipoCuentaNombre varchar(30) not null,
+ unique(TipoCuentaTiempo)
+);

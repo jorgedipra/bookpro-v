@@ -11,7 +11,7 @@ height:400px;
 width:100%;
 }
 .slideContent{
-background:url("../images/contentBg.png") repeat scroll 0 0 transparent;
+background:url("/images/contentBg.png") repeat scroll 0 0 transparent;
 bottom:0px;
 padding:10px;
 position:absolute;
@@ -44,7 +44,7 @@ position:relative;
 top:1px;
 }
 .jFlowNext{
-background:url("../images/arrows.png") no-repeat scroll 0 -35px transparent;
+background:url("/images/arrows.png") no-repeat scroll 0 -35px transparent;
 cursor:pointer;
 height:130px;
 position:absolute;
@@ -53,7 +53,7 @@ top:30%;
 width:50px;
 }
 .jFlowPrev{
-background:url("../images/arrows.png") no-repeat scroll -84px -35px transparent;
+background:url("/images/arrows.png") no-repeat scroll -84px -35px transparent;
 cursor:pointer;
 height:130px;
 left:-50px;
@@ -75,7 +75,7 @@ right:5px;
 top:5px;
 }
 .jFlowControl{
-background:url("../images/bullet.png") no-repeat scroll 0px 0px transparent;
+background:url("/images/bullet.png") no-repeat scroll 0px 0px transparent;
 float:left;
 height:15px;
 width:15px;

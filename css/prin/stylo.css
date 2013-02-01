@@ -12,6 +12,19 @@ text-shadow:0 0 5px #fff,
             0 0 75px #4A2EFF;
 letter-spacing:5px;
 }
+::-moz-selection { 
+ color:#fff;
+text-shadow:0 0 5px #fff,             
+            0 0 10px #fff,            
+            0 0 15px #fff,             
+            0 0 20px #4A2EFF,
+            0 0 30px #4A2EFF,       
+            0 0 40px #4A2EFF,             
+            0 0 50px #4A2EFF,             
+            0 0 75px #4A2EFF;
+letter-spacing:5px;
+}
+
 html{
 background-color:#F5F5F5;
 background:url(http://mjplay-v.16mb.com/imagenes/fondos/wall4.png);
