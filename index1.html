@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1, IE=9"> 
+ <meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1"/>
+ <meta name="description" content="Plataforma de Aprendisaje ">
+ <meta property="og:title" content="Bookpro-v" />
+ <meta property="og:type" content="education virtual" />
+ <meta property="og:url" content="http://Bookpro-v.es"/>
+ <meta property="og:image" content="img/logo.png" />
+ <meta property="og:site_name" content="Bookpro-v.es" />
+<title>Bookpro-v</title>
+<link rel="shortcut icon" href="img/logo.png"" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=UnifrakturCook:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Macondo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/prin/style.css">
+<!--[if lt IE 9]>
+ <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+ <![endif]--> 
+<link href="css/prin/jflow.style.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="js/jflow.plus.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".jFlowControl", 
+			slideWrapper : "#jFlowSlider", 
+			slides: "#mySlides",  
+	    	selectedWrapper: "jFlowSelected",  			
+			effect: "flow", 
+			width: "100%",  
+			height: "300px",  
+			duration: 400,  		
+			pause: 5000, 
+			prev: ".jFlowPrev", 
+			next: ".jFlowNext", 
+			auto: true
+    });
+});
+</script>
+</head>
+<body  id="style-1">
+<article class="tabs">
+    <a class="open" href="#"><img src="img/logo.png" alt="MJplay-V"></a> 
+	<ul>
+	    <li id="logop"><a href="#"><i data-icon="B">OOKPRO-V</i><span></span></a></li>
+		<li>
+			<a id="mj" href="#"><img src="img/LOGO.jpg" alt="MJplay-V"></a>
+			<a id="ap" href="#"><img src="img/aprobelogo1.png" alt="Aprobe"></a></li>
+		<li id="nsal">
+			<div id="ensal"><a href="#" id="eone">Entrar</a><a href="#" id="etwo">Crear</a></div>
+	    </li>
+	</ul>  
+</article>
+<article id="logo">
+    <div id="text">book<b>pro</b>-<span>V</span></div>
+        <img src="img/logog.png" alt="bookpro-v">
+</article>
+<section id="videos">
+    <video  height="270" poster="img/video.JPG">
+        <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"><!-- Safari / iOS, IE9 -->
+        <source src="http://clips.vorwaerts-gmbh.de/VfE.webm"><!-- Chrome10+, Ffx4+, Opera10.6+ -->
+        <source src="http://clips.vorwaerts-gmbh.de/VfE.ogv"><!-- Firefox3.6+ / Opera 10.5+ -->
+  	</video>
+    <div id="control">	
+    <div title="video progress bar" class="ProgressBar"><span></span></div>
+    <div id="controles">
+        <a title="Play video" href="#" class="Play">►</a>
+        <a title="Pause video" href="#" class="Pause">||</a>
+    </div>
+    <div class="Volume" title="Volume bar"><div></div><span></span></div>
+    </div>
+</section>
+<article id="social">
+    <span class="button fb">  
+        <a href="#"><img src="img/facebook-icon2.png" alt="facebook">Like It</a>  
+    </span>  
+    <span class="button twit">  
+        <a href="#"><img src="img/twitter-icon2.png" alt="twitter">Tweet It</a>  
+    </span>  
+    <span class="button mail">  
+        <a href="#"><img src="img/google-plus-icon2.png" alt="plus">Plus It</a>  
+    </span>   
+</article>
+<section id="button-f">
+    <a href="#"><blockquote class="hukidashi2">HAS UNA PRUEBA GRATIS</blockquote></a>
+</section>
+<nav>
+    <article>
+	    <div class="s-button">
+            <a class="frame" href="#"></a>
+            <div class="body">&nbsp;&nbsp;&nbsp;&nbsp; QUIENES&nbsp;&nbsp;&nbsp;&nbsp; SOMOS</div>
+        </div>
+        <div class="s-button" data-color="red">
+            <a class="frame" href="#"></a>
+        <div class="body">&nbsp; NUESTROS CURSOS</div>
+        </div>
+        <div class="s-button" data-color="blue">
+            <a class="frame" href="#"></a>
+        <div class="body">&nbsp; NUESTRAS CUENTAS</div>
+        </div>
+        <div class="s-button" data-color="green">
+            <a class="frame" href="#"></a>
+        <div class="body">&nbsp;&nbsp; MAS&nbsp;&nbsp;&nbsp;&nbsp; CONTENIDO</div>
+        </div>
+    </article>
+</nav>
+<article id="rota">
+<div id="sliderContainer">
+    <div id="mySlides">
+      <div id="slide1" class="slide"> <img src="images/jflow-sample-slide1.jpg" alt="Slide 1 jFlow Plus" />
+        <div class="slideContent">
+          <h3>titulo</h3>
+          <p>contenido</p>
+        </div>
+      </div>
+      <div id="slide2" class="slide"> <img src="images/jflow-sample-slide2.jpg" alt="Slide 2 jFlow Plus" />
+        <div class="slideContent">
+          <h3>titulo</h3>
+          <p>contenido</p>
+        </div>
+      </div>
+      <div id="slide3" class="slide"> <img src="images/jflow-sample-slide3.jpg" alt="Slide 3 jFlow Plus" />
+        <div class="slideContent">
+          <h3>titulo</h3>
+          <p>contenido</p>
+        </div>
+      </div>
+      <div id="slide4" class="slide"> <img src="images/jflow-sample-slide4.jpg" alt="Slide 3 jFlow Plus" />
+        <div class="slideContent">
+          <h3>titulo</h3>
+          <p>contenido</p>
+        </div>
+      </div>
+    </div>
+    <div id="myController"> 
+        <span class="jFlowControl"></span> 
+        <span class="jFlowControl"></span> 
+        <span class="jFlowControl"></span> 
+        <span class="jFlowControl"></span> 
+    </div>
+    <div class="jFlowPrev"></div>
+    <div class="jFlowNext"></div>
+  </div>
+</article>
+<footer id="upm">
+<div id="textf">
+   <p>&copy; 2012 &#8211; BOOKPRO-V, un proyecto de <a target='_blank' href='https://twitter.com/#!/MJPlayV'>MJPlay-V</a> y de <a target='_blank' href='/#'>Aprobe</a>. El nombre y logo de BOOKPRO-V son marcas registradas.</p></div>
+    <div id="img"><a id="mj" href="#"><img src="img/LOGO.jpg" alt="MJplay-V"></a>
+	<a id="ap" href="#"><img src="img/aprobelogo1.png" alt="Aprobe"></a></li></div>    
+</footer>
+</body>
+</html>
+<script type="text/javascript" src="js/Script.js"></script>
