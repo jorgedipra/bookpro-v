@@ -22,6 +22,11 @@ En el directorio del proyecto, puede ejecutar:
 ```bash
   npm start
 ```
+construir en ./build :
+
+```bash
+  npm run build2
+```
 
 Ejecuta la aplicación en modo de desarrollo.\
 Abrir [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
