@@ -4,7 +4,7 @@
 Landing de un portal de education virtual hecho en react.js
 
 
-![Logo](https://github.com/jorgedipra/bookpro-v/blob/master/img/logo1.JPG?raw=true)
+![Logo](https://github.com/jorgedipra/bookpro-v/blob/master/old/img/logo1.JPG?raw=true)
 
 
 ## Tech Stack
