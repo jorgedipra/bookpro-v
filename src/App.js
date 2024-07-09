@@ -5,13 +5,13 @@ import { FooterComponente } from './components/FooterComponente';
 import { HeaderComponente } from './components/HeaderComponente';
 import 'bulma/css/bulma.min.css';
 
+
 function App() {
   return (
     <div className="App">
-        <HeaderComponente logo={logo} ></HeaderComponente>
-      <header className="App-header">
-        <BoddyComponente></BoddyComponente>
-      </header>
+      <HeaderComponente logo={logo} ></HeaderComponente>
+      <BoddyComponente logo={logo} ></BoddyComponente>
+      <header className="App-header"></header>
       <FooterComponente></FooterComponente>
     </div>
   );

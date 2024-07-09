@@ -4,7 +4,11 @@ import React from 'react'
 export const HeaderComponente = (props) => {
     return (
         <div>
-            <nav className="navbar" role="navigation" aria-label="main navigation">
+            <nav className="navbar is-light" role="navigation" aria-label="main navigation">
+            
+            <div className="navbar-brand">
+                <span id="nav-ini"></span>
+            </div>
                 <div className="navbar-brand">
                     <a className="navbar-item" href="https://github.com/jorgedipra/bookpro-v">
                     <img className='img-logo' src={props.logo} alt="Logo" />
@@ -19,16 +23,16 @@ export const HeaderComponente = (props) => {
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" className="navbar-menu">
+                <div className="navbar-menu">
                    
                     <div className="navbar-end">
                         <div className="navbar-item">
                             <div className="buttons">
-                                <a className="button is-primary" href='/'>
-                                    <strong>Sign up</strong>
+                                <a className="button is-success orbitron-font" href='/'>
+                                    <strong>Nuevo</strong>
                                 </a>
-                                <a className="button is-light" href='/'>
-                                    Log in
+                                <a className="button is-dark orbitron-font" href='/'>
+                                    Acceder
                                 </a>
                             </div>
                         </div>
