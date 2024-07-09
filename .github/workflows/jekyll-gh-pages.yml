@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy2
 
 on:
   push:
@@ -12,13 +12,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          persist-credentials: false # Esto asegura que las credenciales no persisten entre acciones
-
-      - name: Configure git
-        run: |
-          git config --global user.email "jorgedipra@gmail.com"
-          git config --global user.name "jorgedipra"
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
@@ -32,8 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.bookpro-v }}
-        run: |
-          git remote set-url origin https://x-access-token:${{ secrets.bookpro-v }}@github.com/jorgedipra/bookpro-v.git
-          npx gh-pages -d build
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
