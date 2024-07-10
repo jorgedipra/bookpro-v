@@ -44,7 +44,7 @@
     <h1>🔗 Repositorio</h1>
 </p>
 <p>
-	<img src="https://github.com/jorgedipra/bookpro-v/blob/master/Captura%20de%20pantalla/repo.png?raw=true" alt="Repositorio">
+	<a href="https://github.com/jorgedipra/bookpro-v" rel="nofollow"><img src="https://github.com/jorgedipra/bookpro-v/blob/master/Captura%20de%20pantalla/repo.png?raw=true" alt="Repositorio"></a>
 </p>
 
 <p>
