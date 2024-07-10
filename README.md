@@ -33,13 +33,20 @@
 	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
 </p>
 
-# Captura de pantalla
+<p>
+    <h1>📷 Captura de pantalla</h1>
+</p>
+<p align="center">
+	<img src="https://github.com/jorgedipra/bookpro-v/assets/2782138/d1104e11-e736-44bd-ba9a-7766a9fc3031" alt="Captura de pantalla">
+</p>
 
-![image](https://github.com/jorgedipra/bookpro-v/assets/2782138/d1104e11-e736-44bd-ba9a-7766a9fc3031)
+<p>
+    <h1>🔗 Repositorio</h1>
+</p>
+<p>
+	<img src="https://github.com/jorgedipra/bookpro-v/blob/master/Captura%20de%20pantalla/repo.png?raw=true" alt="Captura de pantalla">
+</p>
 
-
-## 🔗 Repositorio
-[![repositorio](https://github.com/jorgedipra/bookpro-v/blob/master/Captura%20de%20pantalla/repo.png?raw=true)](https://github.com/jorgedipra/bookpro-v/)
 
 ## Tech Stack
 
