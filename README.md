@@ -44,9 +44,39 @@
     <h1>🔗 Repositorio</h1>
 </p>
 <p>
-	<img src="https://github.com/jorgedipra/bookpro-v/blob/master/Captura%20de%20pantalla/repo.png?raw=true" alt="Captura de pantalla">
+	<img src="https://github.com/jorgedipra/bookpro-v/blob/master/Captura%20de%20pantalla/repo.png?raw=true" alt="Repositorio">
 </p>
 
+<p>
+    <h1>🛠 Tech Stack</h1>
+</p>
+<p>
+	
+</p>
+<hr>
+
+##  Quick Links
+
+> - [ Overview](#-overview)
+> - [ Features](#-features)
+> - [ Repository Structure](#-repository-structure)
+> - [ Modules](#-modules)
+> - [ Getting Started](#-getting-started)
+>   - [ Installation](#-installation)
+>   - [ Running ](#-running-)
+>   - [ Tests](#-tests)
+> - [ Project Roadmap](#-project-roadmap)
+> - [ Contributing](#-contributing)
+> - [ License](#-license)
+> - [ Acknowledgments](#-acknowledgments)
+
+---
+
+##  Overview
+
+HTTP error 401 for prompt `overview`
+
+---
 
 ## Tech Stack
 
