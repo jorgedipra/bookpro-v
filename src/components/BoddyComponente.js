@@ -56,9 +56,9 @@ export const BoddyComponente = (props) => {
             <input type="radio" name="Carrusel" id="Slider2" />
             <input type="radio" name="Carrusel" id="Slider3" />
             <div className="Carrusels">
-              <div className="Carrusel Carr-img" style={{ backgroundImage: `url(https://github.com/jorgedipra/bookpro-v/blob/master/old/images/jflow-sample-slide1.jpg?raw=true)` }}></div>
-              <div className="Carrusel Carr-img" style={{ backgroundImage: `url(https://github.com/jorgedipra/bookpro-v/blob/master/old/images/jflow-sample-slide3.jpg?raw=true)` }}></div>
-              <div className="Carrusel Carr-img" style={{ backgroundImage: `url(https://github.com/jorgedipra/bookpro-v/blob/master/old/images/jflow-sample-slide4.jpg?raw=true)` }}></div>
+              <div className="Carrusel Carr-img" style={{ backgroundImage: `url(https://github.com/jorgedipra/bookpro-v/blob/master/src/img/framewoks-php.png?raw=true)` }}></div>
+              <div className="Carrusel Carr-img" style={{ backgroundImage: `url(https://github.com/jorgedipra/bookpro-v/blob/master/src/img/framewoks-react.png?raw=true)` }}></div>
+              <div className="Carrusel Carr-img" style={{ backgroundImage: `url(https://github.com/jorgedipra/bookpro-v/blob/master/src/img/framewoks-vue.png?raw=true)` }}></div>
 
               <label htmlFor="Slider3" className="ArrowLeft Arrow1">❮</label>
               <label htmlFor="Slider1" className="ArrowLeft Arrow2">❮</label>
@@ -78,6 +78,8 @@ export const BoddyComponente = (props) => {
         </div>
         <div className="cell"> </div>
       </div>
+      <div className="cell is-col-span-12"></div>
+
     </div>
 
   )

@@ -34,6 +34,7 @@ Abrir [http://localhost:3000](http://localhost:3000) para verlo en su navegador.
 
 [Bulma](https://bulma.io/documentation/)
 
+[Mantine](https://ui.mantine.dev/)
 
 ## Authors
 
