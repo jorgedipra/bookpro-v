@@ -32,7 +32,6 @@
 	<img src="https://img.shields.io/badge/Bulma-00D1B2.svg?style=flat&logo=Bulma&logoColor=white" alt="Bulma">
 	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
 </p>
-<hr>
 
 # Captura de pantalla
 
