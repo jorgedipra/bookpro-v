@@ -149,5 +149,4 @@ Abrir <a href="http://localhost:3000" rel="nofollow">http://localhost:3000</a> p
 <blockquote data-sourcepos="117:1-117:55">
 <p data-sourcepos="117:3-117:55" dir="auto"><a href="https://jorgedipra.github.io/" rel="nofollow">jorgedipra.github.io</a></p>
 </blockquote>
-</div>
 
